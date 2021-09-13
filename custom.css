@@ -1,5 +1,6 @@
-/*
- * Frankfurt as base
+/**
+ * Uses Frankfurt as base
+ * inspired by Tomorrow Night Bright
 
 :root {
 
@@ -24,9 +25,6 @@
   --selection-light: var(--blue-selection);
   --selection-dark: var(--blue-selection-dark);
 
-  /**
-   * ALERTS
-   */
   --c-alert-success: var(--green-selection);
   --c-alert-success-shade: var(--green-selection-dark);
 
@@ -36,9 +34,6 @@
   --c-alert-error: var(--bg-error);
   --c-alert-error-shade: var(--fg-error);
 
-  /**
-   * POMODORO
-   */
   --pomodoro-task: var(--orange-2);
   --pomodoro-short: var(--gold-selection-dark);
   --pomodoro-long: var(--green-selection-dark);
@@ -117,4 +112,12 @@ body.dark #editor .CodeMirror .cm-formatting-header-1, body.dark .quicklook .bod
 
 body.dark #editor .CodeMirror .cm-fenced-code.cm-atom, body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-atom, body.dark .dialog .CodeMirror .cm-fenced-code.cm-atom {
     color: #b9ca4a;
+}
+
+body.dark #editor .CodeMirror .cm-comment, body.dark .quicklook .body .CodeMirror .cm-comment, body.dark .dialog .CodeMirror .cm-comment, body.dark #editor .CodeMirror .cm-fenced-code, body.dark .quicklook .body .CodeMirror .cm-fenced-code, body.dark .dialog .CodeMirror .cm-fenced-code, body.dark #editor .CodeMirror .cm-inline-math, body.dark .quicklook .body .CodeMirror .cm-inline-math, body.dark .dialog .CodeMirror .cm-inline-math {
+	color: white;
+}
+
+body.dark #editor .CodeMirror .cm-fenced-code.cm-string, body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-string, body.dark .dialog .CodeMirror .cm-fenced-code.cm-string {
+    color: white;
 }
