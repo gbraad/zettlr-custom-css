@@ -1,0 +1,39 @@
+#editor {
+    background-color: black;
+    background-size: cover;
+    background-position: center center;
+}
+
+body #editor .CodeMirror {
+    font-family: "Source Code Pro";
+}
+
+body #editor .CodeMirror-sizer, body #editor .CodeMirror-gutter {
+    background-color: white;
+    height: 100%;
+}
+
+body.dark #editor .CodeMirror-sizer, body.dark #editor .CodeMirror-gutter {
+    background-color: black;
+}
+
+#editor .CodeMirror {
+    background-color: transparent;
+}
+
+.CodeMirror-line:not(:last-child)::after {
+    content: "¶";
+    color: #666;
+}
+
+body.show-menubar #editor.fullscreen, #editor.fullscreen, .CodeMirror-fullscreen {
+    top: 0px;
+}
+
+body #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
+    background-color: lightgray;
+}
+
+body.dark #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
+    background-color: lightgray;
+}
