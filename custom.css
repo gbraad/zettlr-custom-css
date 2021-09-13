@@ -31,9 +31,9 @@ body.show-menubar #editor.fullscreen, #editor.fullscreen, .CodeMirror-fullscreen
 }
 
 body #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
-    background-color: lightgray;
+    background-color: gray;
 }
 
 body.dark #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
-    background-color: lightgray;
+    background-color: gray;
 }
