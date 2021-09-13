@@ -1,6 +1,5 @@
-/**
- * Uses Frankfurt as base
- * inspired by Tomorrow Night Bright
+/*
+ * Frankfurt as base
 
 :root {
 
@@ -25,7 +24,9 @@
   --selection-light: var(--blue-selection);
   --selection-dark: var(--blue-selection-dark);
 
-  
+  /**
+   * ALERTS
+   */
   --c-alert-success: var(--green-selection);
   --c-alert-success-shade: var(--green-selection-dark);
 
@@ -35,6 +36,9 @@
   --c-alert-error: var(--bg-error);
   --c-alert-error-shade: var(--fg-error);
 
+  /**
+   * POMODORO
+   */
   --pomodoro-task: var(--orange-2);
   --pomodoro-short: var(--gold-selection-dark);
   --pomodoro-long: var(--green-selection-dark);
@@ -92,10 +96,8 @@ body.dark #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line,
 }
 
 body #editor .CodeMirror .cm-highlight, body .quicklook .body .CodeMirror .cm-highlight, body .dialog .CodeMirror .cm-highlight {
-    background-color: #e78c45;
+    background-color: transparent;
 }
-
-body #editor .CodeMirror .cm-highlight, body .quicklook .body .CodeMirror .cm-highlight, body .dialog .CodeMirror .cm-highlight
 
 body.dark #editor .CodeMirror .cma, body.dark .quicklook .body .CodeMirror .cma, body.dark .dialog .CodeMirror .cma {
     color: #7aa6da;
@@ -111,4 +113,8 @@ body.dark #editor .CodeMirror .cm-quote, body.dark .quicklook .body .CodeMirror 
 
 body.dark #editor .CodeMirror .cm-formatting-header-1, body.dark .quicklook .body .CodeMirror .cm-formatting-header-1, body.dark .dialog .CodeMirror .cm-formatting-header-1, body.dark #editor .CodeMirror .cm-formatting-header-2, body.dark .quicklook .body .CodeMirror .cm-formatting-header-2, body.dark .dialog .CodeMirror .cm-formatting-header-2, body.dark #editor .CodeMirror .cm-formatting-header-3, body.dark .quicklook .body .CodeMirror .cm-formatting-header-3, body.dark .dialog .CodeMirror .cm-formatting-header-3, body.dark #editor .CodeMirror .cm-formatting-header-4, body.dark .quicklook .body .CodeMirror .cm-formatting-header-4, body.dark .dialog .CodeMirror .cm-formatting-header-4, body.dark #editor .CodeMirror .cm-formatting-header-5, body.dark .quicklook .body .CodeMirror .cm-formatting-header-5, body.dark .dialog .CodeMirror .cm-formatting-header-5, body.dark #editor .CodeMirror .cm-formatting-header-6, body.dark .quicklook .body .CodeMirror .cm-formatting-header-6, body.dark .dialog .CodeMirror .cm-formatting-header-6, body.dark #editor .CodeMirror .cm-url, body.dark .quicklook .body .CodeMirror .cm-url, body.dark .dialog .CodeMirror .cm-url {
     color: #7aa6da;
+}
+
+body.dark #editor .CodeMirror .cm-fenced-code.cm-atom, body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-atom, body.dark .dialog .CodeMirror .cm-fenced-code.cm-atom {
+    color: #b9ca4a;
 }
