@@ -78,47 +78,119 @@ body.dark #editor .CodeMirror-sizer, body.dark #editor .CodeMirror-gutter {
     color: #666;
 }
 
-body.show-menubar #editor.fullscreen, #editor.fullscreen, .CodeMirror-fullscreen {
+body.show-menubar #editor.fullscreen,
+#editor.fullscreen,
+.CodeMirror-fullscreen {
     top: 0px;
 }
 
-body #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
+body #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line,
+body .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line,
+body .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
     background-color: #2a2a2a;
 }
 
-body.dark #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line, body.dark .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
+body.dark #editor .CodeMirror .CodeMirror-linebackground.typewriter-active-line,
+body.dark .quicklook .body .CodeMirror .CodeMirror-linebackground.typewriter-active-line,
+body.dark .dialog .CodeMirror .CodeMirror-linebackground.typewriter-active-line {
     background-color: #2a2a2a;
 }
 
-body #editor .CodeMirror .cm-highlight, body .quicklook .body .CodeMirror .cm-highlight, body .dialog .CodeMirror .cm-highlight {
+body #editor .CodeMirror .cm-highlight,
+body .quicklook .body .CodeMirror .cm-highlight,
+body .dialog .CodeMirror .cm-highlight {
     background-color: transparent;
-    color: #b9ca2b;
-}
-
-body.dark #editor .CodeMirror .cma, body.dark .quicklook .body .CodeMirror .cma, body.dark .dialog .CodeMirror .cma {
-    color: #7aa6da;
-}
-
-body.dark #editor .CodeMirror .cm-formatting-list-ul, body.dark .quicklook .body .CodeMirror .cm-formatting-list-ul, body.dark .dialog .CodeMirror .cm-formatting-list-ul, body.dark #editor .CodeMirror .cm-formatting-list-ol, body.dark .quicklook .body .CodeMirror .cm-formatting-list-ol, body.dark .dialog .CodeMirror .cm-formatting-list-ol {
-	color: #e78c45;
-}
-
-body.dark #editor .CodeMirror .cm-quote, body.dark .quicklook .body .CodeMirror .cm-quote, body.dark .dialog .CodeMirror .cm-quote, body.dark #editor .CodeMirror .cm-link, body.dark .quicklook .body .CodeMirror .cm-link, body.dark .dialog .CodeMirror .cm-link, body.dark #editor .CodeMirror .cm-strong, body.dark .quicklook .body .CodeMirror .cm-strong, body.dark .dialog .CodeMirror .cm-strong, body.dark #editor .CodeMirror .cm-em, body.dark .quicklook .body .CodeMirror .cm-em, body.dark .dialog .CodeMirror .cm-em {
-	color: #b9ca4a;
-}
-
-body.dark #editor .CodeMirror .cm-formatting-header-1, body.dark .quicklook .body .CodeMirror .cm-formatting-header-1, body.dark .dialog .CodeMirror .cm-formatting-header-1, body.dark #editor .CodeMirror .cm-formatting-header-2, body.dark .quicklook .body .CodeMirror .cm-formatting-header-2, body.dark .dialog .CodeMirror .cm-formatting-header-2, body.dark #editor .CodeMirror .cm-formatting-header-3, body.dark .quicklook .body .CodeMirror .cm-formatting-header-3, body.dark .dialog .CodeMirror .cm-formatting-header-3, body.dark #editor .CodeMirror .cm-formatting-header-4, body.dark .quicklook .body .CodeMirror .cm-formatting-header-4, body.dark .dialog .CodeMirror .cm-formatting-header-4, body.dark #editor .CodeMirror .cm-formatting-header-5, body.dark .quicklook .body .CodeMirror .cm-formatting-header-5, body.dark .dialog .CodeMirror .cm-formatting-header-5, body.dark #editor .CodeMirror .cm-formatting-header-6, body.dark .quicklook .body .CodeMirror .cm-formatting-header-6, body.dark .dialog .CodeMirror .cm-formatting-header-6, body.dark #editor .CodeMirror .cm-url, body.dark .quicklook .body .CodeMirror .cm-url, body.dark .dialog .CodeMirror .cm-url {
-    color: #b9ca2b;
-}
-
-body.dark #editor .CodeMirror .cm-fenced-code.cm-atom, body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-atom, body.dark .dialog .CodeMirror .cm-fenced-code.cm-atom {
     color: #b9ca4a;
 }
 
-body.dark #editor .CodeMirror .cm-comment, body.dark .quicklook .body .CodeMirror .cm-comment, body.dark .dialog .CodeMirror .cm-comment, body.dark #editor .CodeMirror .cm-fenced-code, body.dark .quicklook .body .CodeMirror .cm-fenced-code, body.dark .dialog .CodeMirror .cm-fenced-code, body.dark #editor .CodeMirror .cm-inline-math, body.dark .quicklook .body .CodeMirror .cm-inline-math, body.dark .dialog .CodeMirror .cm-inline-math {
+body.dark #editor .CodeMirror .cma,
+body.dark .quicklook .body .CodeMirror .cma,
+body.dark .dialog .CodeMirror .cma {
+    color: #7aa6da;
+}
+
+body.dark #editor .CodeMirror .cm-formatting-list-ul,
+body.dark .quicklook .body .CodeMirror .cm-formatting-list-ul,
+body.dark .dialog .CodeMirror .cm-formatting-list-ul,
+body.dark #editor .CodeMirror .cm-formatting-list-ol,
+body.dark .quicklook .body .CodeMirror .cm-formatting-list-ol,
+body.dark .dialog .CodeMirror .cm-formatting-list-ol {
+	color: #e78c45;
+}
+
+body.dark #editor .CodeMirror .cm-formatting-header-1,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-1,
+body.dark .dialog .CodeMirror .cm-formatting-header-1,
+body.dark #editor .CodeMirror .cm-formatting-header-2,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-2,
+body.dark .dialog .CodeMirror .cm-formatting-header-2,
+body.dark #editor .CodeMirror .cm-formatting-header-3,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-3,
+body.dark .dialog .CodeMirror .cm-formatting-header-3,
+body.dark #editor .CodeMirror .cm-formatting-header-4,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-4,
+body.dark .dialog .CodeMirror .cm-formatting-header-4,
+body.dark #editor .CodeMirror .cm-formatting-header-5,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-5,
+body.dark .dialog .CodeMirror .cm-formatting-header-5,
+body.dark #editor .CodeMirror .cm-formatting-header-6,
+body.dark .quicklook .body .CodeMirror .cm-formatting-header-6,
+body.dark .dialog .CodeMirror .cm-formatting-header-6,
+body.dark #editor .CodeMirror .cm-url,
+body.dark .quicklook .body .CodeMirror .cm-url, body.dark .dialog .CodeMirror .cm-url {
+    color: #b9ca4a;
+}
+
+body.dark #editor .CodeMirror .cm-fenced-code.cm-atom,
+body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-atom,
+body.dark .dialog .CodeMirror .cm-fenced-code.cm-atom {
+    color: #b9ca4a;
+}
+
+body.dark #editor .CodeMirror .cm-comment,
+body.dark .quicklook .body .CodeMirror .cm-comment,
+body.dark .dialog .CodeMirror .cm-comment,
+body.dark #editor .CodeMirror .cm-fenced-code,
+body.dark .quicklook .body .CodeMirror .cm-fenced-code,
+body.dark .dialog .CodeMirror .cm-fenced-code,
+body.dark #editor .CodeMirror .cm-inline-math,
+body.dark .quicklook .body .CodeMirror .cm-inline-math,
+body.dark .dialog .CodeMirror .cm-inline-math {
 	color: white;
 }
 
-body.dark #editor .CodeMirror .cm-fenced-code.cm-string, body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-string, body.dark .dialog .CodeMirror .cm-fenced-code.cm-string {
+body.dark #editor .CodeMirror .cm-fenced-code.cm-string,
+body.dark .quicklook .body .CodeMirror .cm-fenced-code.cm-string,
+body.dark .dialog .CodeMirror .cm-fenced-code.cm-string {
+    color: white;
+}
+
+body.dark #editor .CodeMirror .cm-quote,
+body.dark .quicklook .body .CodeMirror .cm-quote,
+body.dark .dialog .CodeMirror .cm-quote,
+body.dark #editor .CodeMirror .cm-link,
+body.dark .quicklook .body .CodeMirror .cm-link,
+body.dark .dialog .CodeMirror .cm-link,
+body.dark #editor .CodeMirror .cm-strong,
+body.dark .quicklook .body .CodeMirror .cm-strong,
+body.dark .dialog .CodeMirror .cm-strong,
+body.dark #editor .CodeMirror .cm-em,
+body.dark .quicklook .body .CodeMirror .cm-em,
+body.dark .dialog .CodeMirror .cm-em {
+    color: #d54e53;
+}
+
+body.dark #editor .CodeMirror .cm-formatting-code,
+body.dark #editor .CodeMirror .cm-formatting-code-block,
+body.dark #editor .CodeMirror .cm-formatting-quote,
+body.dark #editor .CodeMirror .cm-formatting-strong,
+body.dark #editor .CodeMirror .cm-formatting-em, .CodeMirror .cm-zkn-link-formatting, .CodeMirror .cm-escape-char {
+    color: #7aa6da !important;
+    opacity: unset;
+}
+
+body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link-string.cm-string.cm-url,
+body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-image.cm-image.cm-image-alt-text.cm-link,
+body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link.cm-variable-2 {
     color: white;
 }
