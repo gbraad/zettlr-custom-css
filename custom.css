@@ -191,6 +191,7 @@ body.dark #editor .CodeMirror .cm-formatting-em, .CodeMirror .cm-zkn-link-format
 
 body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link-string.cm-string.cm-url,
 body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-image.cm-image.cm-image-alt-text.cm-link,
-body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link.cm-variable-2 {
+body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link.cm-variable-2,
+body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link {
     color: white;
 }
