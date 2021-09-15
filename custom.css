@@ -195,3 +195,7 @@ body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link.cm-v
 body.dark #editor .CodeMirror span.cm-formatting.cm-formatting-link.cm-link {
     color: white;
 }
+
+body.dark #editor .CodeMirror .cm-comment:not(.cm-formatting):not(.cm-fenced-code) {
+    background-color: #2a2a2a;
+}
