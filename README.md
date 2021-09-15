@@ -1,5 +1,5 @@
-Zettlr Custom CSS
-=================
+Zettlr - Tomorrow Night Bright
+==============================
 
 Custom CSS for Zettlr
   * uses Frankfurt as base
