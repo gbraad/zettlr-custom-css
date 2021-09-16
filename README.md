@@ -4,6 +4,7 @@ Zettlr - Tomorrow Night Bright
 Custom CSS for Zettlr
   * uses Frankfurt as base
   * inspired by Tomorrow Night Bright
+  * uses Adobe Source Code Pro
 
 ![](example.png)
 
