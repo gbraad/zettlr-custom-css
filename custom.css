@@ -56,6 +56,10 @@ body.dark #editor {
     background-color: black;
 }
 
+body.win32.dark #file-tree {
+    background-color: #252525;
+}
+
 soft-blink {
 -webkit-animation-name: none;
 }
