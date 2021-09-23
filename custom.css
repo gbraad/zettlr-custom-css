@@ -52,6 +52,10 @@
     background-position: center center;
 }
 
+body.dark #editor {
+    background-color: black;
+}
+
 soft-blink {
 -webkit-animation-name: none;
 }
