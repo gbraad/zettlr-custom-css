@@ -8,4 +8,9 @@ Custom CSS for [Zettlr](https://www.zettlr.com/) ([GitHub](https://github.com/Ze
 
 ![](example.png)
 
-Note: for 2.0 beta releases you have to create a custom.css file in the application data folder. For Windows this is: `C:\Users\[username]\AppData\Roaming\Zettlr`
+Note: You have to create a `custom.css` file in the application data folder.
+
+  * Windows:  
+    `C:\Users\[username]\AppData\Roaming\Zettlr`
+  * Linux:  
+    `~/.config/Zettlr/`
